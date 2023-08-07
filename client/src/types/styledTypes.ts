@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface SliderProps {
   bg?: string;
   slideIndex?: number;
@@ -29,3 +31,7 @@ export interface ProductProps {
 export interface SocialIconProps {
   color: string;
 }
+
+export type TopButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  buttonStyle?: "filled" | "outlined";
+};

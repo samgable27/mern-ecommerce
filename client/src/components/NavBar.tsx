@@ -7,7 +7,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 interface NavBarProps {}
 
 const Container = styled.div`
-  height: 60px;
+  height: 80px;
 `;
 
 const Wrapper = styled.div`
