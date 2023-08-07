@@ -25,3 +25,7 @@ export interface ProductProps {
   img?: string;
   id?: number;
 }
+
+export interface SocialIconProps {
+  color: string;
+}
